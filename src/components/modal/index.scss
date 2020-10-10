@@ -1,0 +1,55 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 16px;
+  color: #32325d;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  width: 100%;
+
+  @media (min-width: 767px) {
+    width: 500px;
+    height: 420px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding:  0 16px;
+    border-bottom: 1px solid #e9ecef;
+    @media (min-width: 767px) {
+      padding: 0 0 16px 0;
+    }
+  }
+
+  &__title {
+    padding-bottom: 16px;
+    font-weight: normal;
+  }
+
+  &__icon {
+    cursor: pointer;
+    border: 0;
+  }
+
+  &__body {
+    padding: 16px;
+    border-bottom: 1px solid #e9ecef;
+
+    @media (min-width: 767px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  &__footer {
+    margin-top: 16px;
+    padding: 16px;
+    @media (min-width: 767px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
