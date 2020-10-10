@@ -15,7 +15,6 @@
 
 ## 📖 About
 
-<img width="500" src="https://yasinates.com/react-post-list.jpg" alt="React Post List App">
 
 This project was created to create a medium/large React project folder structure 😋
 I developed this project because, I need medium and larger React project folder structure.
