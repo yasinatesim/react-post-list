@@ -10,9 +10,7 @@ const Routes = () => {
 
   return (
     <Router>
-      <Switch>
-        {routeMap}
-      </Switch>
+      <Switch>{routeMap}</Switch>
     </Router>
   );
 };

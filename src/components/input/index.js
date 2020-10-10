@@ -13,7 +13,6 @@ const propTypes = {
 };
 
 function Input({ label, type, name, onChange, value }) {
-
   return (
     <div className="text-input">
       <label htmlFor={name}>{label}</label>

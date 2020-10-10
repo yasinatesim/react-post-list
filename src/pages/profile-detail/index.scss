@@ -11,7 +11,7 @@
     h3 {
       padding-bottom: 8px;
       margin-bottom: 24px;
-      border-bottom: 1px solid rgba(0,0,0,.5);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     }
     ul {
       list-style-type: none;
@@ -22,12 +22,13 @@
         padding-bottom: 12px;
         display: flex;
         &:not(:last-child) {
-          border-bottom: 1px solid rgba(0,0,0,.1);
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
         strong {
           flex: 2;
         }
-        a, span {
+        a,
+        span {
           flex: 10;
         }
       }

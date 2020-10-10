@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // Components
-import Input from "../input";
-import Button from "../button";
+import Input from '../input';
+import Button from '../button';
 
 // Styles
 import './index.scss';

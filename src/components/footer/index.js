@@ -16,7 +16,7 @@ function Footer() {
         <div className="footer__top">
           <div>
             <h4>Thank you for supporting us!</h4>
-            <p>Let's get in touch on any of these platforms.</p>
+            <p>Let&apos;s get in touch on any of these platforms.</p>
           </div>
           <div>
             <SocialMedia />
@@ -24,7 +24,10 @@ function Footer() {
         </div>
         <div className="footer__copyright">
           <p>
-            &copy; 2020. <a href="http://github.com/yasinatesim/react-post-list" className="active">React Post List</a>
+            &copy; 2020.{' '}
+            <a href="http://github.com/yasinatesim/react-post-list" className="active">
+              React Post List
+            </a>
           </p>
           <div>
             <Link to="/">Posts</Link>

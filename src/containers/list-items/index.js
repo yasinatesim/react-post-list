@@ -17,7 +17,9 @@ function ListItems({ posts, handleClickRemove, handleClickEdit }) {
   return (
     <ul className="list-items">
       {posts !== null &&
-        posts.map((item) => <ListItem handleClickEdit={handleClickEdit} handleClickRemove={handleClickRemove} key={item.id} item={item} />)}
+        posts.map((item) => (
+          <ListItem handleClickEdit={handleClickEdit} handleClickRemove={handleClickRemove} key={item.id} item={item} />
+        ))}
     </ul>
   );
 }

@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Styles
-import './index.scss'
+import './index.scss';
 
 function SocialMedia() {
   return (

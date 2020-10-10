@@ -36,5 +36,4 @@ function ListItem({ item, handleClickEdit, handleClickRemove }) {
 
 ListItem.propTypes = propTypes;
 
-
 export default ListItem;

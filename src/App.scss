@@ -16,7 +16,7 @@ body {
   height: 100vh;
 
   &::before {
-    content: "";
+    content: '';
     position: fixed;
     left: 0;
     right: 0;
@@ -67,5 +67,4 @@ button {
 }
 
 .content {
-
 }

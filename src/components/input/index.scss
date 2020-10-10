@@ -3,17 +3,18 @@
     display: block;
   }
 
-  input, textarea {
+  input,
+  textarea {
     width: 100%;
     margin-top: 4px;
     padding: 12px;
     box-sizing: border-box;
-    border: 1px solid #CAD1D7;
-    color: #8898AA;
+    border: 1px solid #cad1d7;
+    color: #8898aa;
     border-radius: 4px;
     outline: 0;
     &:focus {
-      border-color: darken(#CAD1D7, 50%);
+      border-color: darken(#cad1d7, 50%);
     }
   }
 
