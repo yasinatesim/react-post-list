@@ -16,9 +16,7 @@
 ## 📖 About
 
 
-This project was created to create a medium/large React project folder structure 😋
-I developed this project because, I need medium and larger React project folder structure.
-I'm preparing for my project **folder structure stack** project soon 😎
+This project was created to create a medium/large React project with React Router and Docker 😎
 
 
 ### 📚Tech Stack
