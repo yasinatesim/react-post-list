@@ -9,7 +9,7 @@
 <p align="center">This project was created to create a medium/large React project with React Router and Docker 😎</p>
 
   <p align="center">
-    · <a href="https://react-post-list.yasinatesim.vercel.app/">View Demo</a>
+    · <a href="https://react-post-list.yasinates.com/">View Demo</a>
   </p>
 </p>
 
